@@ -1,3 +1,9 @@
+/*------------------Background colours--*/
+
+.home-info {
+    background-color: #d0d0d0;
+}
+
 /*------------------Header--*/
 
 .link-items li a{
@@ -9,7 +15,6 @@
 /*------------------Hero-Image--*/
 
 .home-title {
-    height: 480px;
     width: 100%;
 }
 
@@ -19,6 +24,7 @@
     object-fit: contain;
     position: relative;
     z-index: -1;
+    display: block;
 }
 
 .hero-image h1 {
@@ -30,6 +36,17 @@
     position: absolute;
     color: #fafafa;
 }
+
+/*------------------Home Information--*/
+
+.home-info {
+    padding-top: 5px;
+}
+
+.home-info p {
+    margin-left: 1%;
+}
+
 
 /*------------------Footer--*/
 
