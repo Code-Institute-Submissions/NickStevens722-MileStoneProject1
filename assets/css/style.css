@@ -6,17 +6,8 @@
     background-color: #330011;
 }
 
-.link-items {
-    background-color: #ffd2bf;
-}
 
 /*------------------Header--*/
-
-.link-items li a{
-    color: #000;
-    font-family: 'Lato', sans-serif;
-}
-
 
 
 /*------------------Hero-Image--*/
@@ -30,7 +21,6 @@
     max-width: 100%;
     object-fit: contain;
     position: relative;
-    z-index: -1;
     display: block;
 }
 
@@ -65,11 +55,19 @@
 
 /*------------------Footer--*/
 
+.social-networks{
+    text-align: center;
+}
 
-.footer-items li a {
-    color: #000;
-    font-size: 24px;
-    z-index: 1000;
+.social-networks li {
+    display:inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
 }
 
 /*------------------Padding and Margins--*/
