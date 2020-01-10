@@ -1,7 +1,7 @@
 /*------------------Background colours--*/
 
 .home-info {
-    background-color: #330011;
+    background-color: #f1f1f1;
 }
 
 /*------------------Padding and Margins--*/
@@ -12,6 +12,7 @@
 
 .home-title {
     width: 100%;
+    overflow: hidden;
 }
 
 .hero-image img {
@@ -20,6 +21,18 @@
     object-fit: contain;
     position: relative;
     display: block;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 .hero-image h1 {
@@ -41,13 +54,13 @@
 .home-info p {
     margin-left: 1%;
     text-align: center;
-    color: #fafafa;
+    color: #000;
 }
 
 .home-info h3 {
     font-family: 'Lato', sans-serif;
     text-align: center;
-    color: #fafafa;
+    color: #000;
 }
 
 
@@ -55,6 +68,11 @@
 
 .social-networks{
     text-align: center;
+    background-color: #515151;
+}
+
+.footer {
+    background-color: #515151;
 }
 
 .social-networks li {
@@ -65,7 +83,7 @@
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #777777;
+    color: #fff;
 }
 
 /*------------------Diary Page--*/
@@ -126,6 +144,27 @@
     background-size: cover;
     background-position: center;
 }
+
+/*------------------Form--*/
+
+.form-section {
+    background: url("../images/form.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    overflow: hidden;
+}
+
+.signup-form {
+  margin-top: 150px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, .6);
+  width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 30px;
+}
+
 
 /*------------------Media queries--*/
 
