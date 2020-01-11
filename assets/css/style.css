@@ -1,12 +1,12 @@
 /*------------------Background colours--*/
 
 .home-info {
-    background-color: #f1f1f1;
+    background-color: #dbd1b4;
 }
 
-/*------------------Padding and Margins--*/
-
-
+.bg-society {
+    background-color: #fafafa;
+}
 
 /*------------------Hero-Image--*/
 
@@ -55,6 +55,7 @@
     margin-left: 1%;
     text-align: center;
     color: #000;
+    padding: 5px;
 }
 
 .home-info h3 {
@@ -63,16 +64,25 @@
     color: #000;
 }
 
+.mission-statement {
+   border-top: solid 1px #fff;
+   padding: 10px;
+}
+
+.welcome {
+   padding: 10px;
+}
+
 
 /*------------------Footer--*/
 
 .social-networks{
     text-align: center;
-    background-color: #515151;
+    background-color: #fafafa;
 }
 
 .footer {
-    background-color: #515151;
+    background-color: #fafafa;
 }
 
 .social-networks li {
@@ -83,14 +93,10 @@
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #fff;
+    color: #2b2d2f;
 }
 
 /*------------------Diary Page--*/
-
-.diary-wrapper {
-    width: 100vw;
-}
 
 .diary-title {
     text-align: center;
@@ -107,10 +113,6 @@
 
 .locations h3 {
     padding-top: 20px;
-}
-
-.overlay {
-    background: rgba(0, 0, 0, 0.2);
 }
 
 .locations-1 {
@@ -145,6 +147,14 @@
     background-position: center;
 }
 
+.travel {
+   font-family: 'Lato', sans-serif;
+}
+
+.travel h3 {
+   padding: 10px 0;
+}
+
 /*------------------Form--*/
 
 .form-section {
@@ -156,14 +166,17 @@
 }
 
 .signup-form {
-  margin-top: 150px;
+  margin-top: 125px;
   color: #fff;
   background-color: rgba(60, 60, 60, .6);
   width: 400px;
   position: absolute;
   left: 10%;
   padding: 30px;
+  font-family: 'Lato', sans-serif;
 }
+
+
 
 
 /*------------------Media queries--*/
@@ -171,5 +184,12 @@
 @media screen and (max-width:768px) {
     .locations {
         margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .mission-statement {
+        border-left: 1px solid #fff;
+        border-top: none;
     }
 }
