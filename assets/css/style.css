@@ -46,11 +46,21 @@
 /*------------------About Us Page--*/
 
 .about-us {
-   background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url('../images/hero-image.jpg');
-   height: 1000px;
-   overflow: hidden;
+   background: linear-gradient( rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6) ), url('../images/hero-image.jpg');
+   height: 750px;
    background-size: cover;
    background-position: center center;
+   background-attachment: fixed;
+   overflow: scroll;
+}
+
+.about-us h3 {
+   padding: 25px 5%;
+   font-family: 'Noto Sans JP', sans-serif;
+}
+
+.about-us p {
+   padding: 0px 5%;
 }
 
 /*------------------Footer--*/
