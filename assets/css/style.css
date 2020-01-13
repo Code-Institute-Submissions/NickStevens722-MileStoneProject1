@@ -140,6 +140,7 @@
     text-align: center;
     color: #fafafa;
     font-family: 'Lato', sans-serif;
+    height: 300px;
 }
 
 .locations h3 {
@@ -152,7 +153,6 @@
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/diary-background.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px;
     background-repeat: no-repeat;
 }
 
@@ -162,7 +162,6 @@
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-2.jpg");
     background-size: cover;
     background-position: center;
-    height: 300px;
     background-repeat: no-repeat;
 }
 
@@ -172,7 +171,6 @@
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-3.jpg");
     background-size: cover;
     background-position: center;
-    height: 300px;
     background-repeat: no-repeat;
 }
 
@@ -182,7 +180,6 @@
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/location-4.jpg");
     background-size: cover;
     background-position: center;
-    height: 300px;
     background-repeat: no-repeat;
 }
 
@@ -193,6 +190,10 @@
 
 .travel h3 {
    padding: 25px 0;
+}
+
+.address {
+   margin-bottom: 0;
 }
 
 /*------------------Results--*/
