@@ -212,6 +212,10 @@
    font-family: 'Lato', sans-serif;
 }
 
+.results table i {
+   color: #fff;
+}
+
 /*------------------Form--*/
 
 .form-section {
