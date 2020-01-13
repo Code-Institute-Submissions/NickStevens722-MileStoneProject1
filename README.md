@@ -11,3 +11,17 @@ The puspose behind the design for the website is for people to be able to find t
 ## Live Demo
 
 The deployed site can be found at this [link](https://nickstevens722.github.io/MileStoneProject1/).
+
+## Technologies
+
+1. HTML5
+2. CSS3
+4. Bootstrap 4
+
+## Testing
+
+The site was self tested on multiple browsers and at multiple screen sizes to ensure compatibility.
+
+## Deployment
+
+The site is published on GitHub pages from the master branch and the link is provided above.
