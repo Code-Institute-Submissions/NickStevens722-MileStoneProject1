@@ -46,11 +46,12 @@
 /*------------------About Us Page--*/
 
 .about-us {
-   background: linear-gradient( rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6) ), url('../images/hero-image.jpg');
+   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/lake.jpg');
    height: 750px;
    background-size: cover;
    background-position: center center;
    overflow: auto;
+   color: #fff;
 }
 
 .about-us h3 {
@@ -89,33 +90,28 @@
 
 /*------------------Footer--*/
 
-.social-networks{
-    text-align: center;
-    background-color: #fafafa;
-    height: 50px;
-}
-
 .footer {
-    background-color: #fafafa;
+   text-align: center;
+   background-color: #585858;
 }
 
 .social-networks li {
-    display:inline;
+   display: inline;
 }
 
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
-    color: #2b2d2f;
+    padding: 1% 5%;
+    color: #fff;
 }
 
 /*------------------Diary Page--*/
 
 .diary-title {
-    text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-left: 5%;
     background-color: #fafafa;
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -130,7 +126,7 @@
 }
 
 .locations h3 {
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .locations-1 {
@@ -155,29 +151,39 @@
 }
 
 .travel h3 {
-   padding: 10px 0;
+   padding: 25px 0;
 }
 
 /*------------------Results--*/
 
-.results h3 {
-   padding: 10px 0;
+.results {
+   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/results.jpg');
+   height: 450px;
+   background-size: cover;
+   background-position: center center;
+   overflow: auto;
+   color: #fff;
+}
+
+.results table {
+   font-family: 'Lato', sans-serif;
 }
 
 /*------------------Form--*/
 
 .form-section {
-    background: url("../images/form.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../images/form.jpg");
     background-size: cover;
     background-position: center;
     height: 750px;
     overflow: hidden;
     font-family: 'Lato', sans-serif;
+    color: #fff
 }
 
 .form-section h3 {
    font-family: 'Noto Sans JP',sans-serif;
-   padding: 10px 0;
+   padding: 25px 0;
 }
 
 
