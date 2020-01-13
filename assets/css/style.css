@@ -16,7 +16,7 @@
 
 /*------------------Hero-Image--*/
 
-.about-us {
+.home-info {
    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4) ), url('../images/hero-image.jpg');
    height: 900px;
    overflow: hidden;
@@ -26,21 +26,31 @@
 
 /*------------------Home Information--*/
 
-.about-us {
+.home-info {
    font-family: 'Lato', sans-serif;
 }
 
-.about-us h3 {
+.home-info h3 {
    padding: 25px 5%;
    font-family: 'Noto Sans JP', sans-serif;
 }
 
-.about-us p {
+.home-info p {
    padding: 0px 5%;
 }
 
-#about-us-text {
+#home-info-text {
   color: #fafafa;
+}
+
+/*------------------About Us Page--*/
+
+.about-us {
+   background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url('../images/hero-image.jpg');
+   height: 1000px;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
 }
 
 /*------------------Footer--*/
@@ -48,6 +58,7 @@
 .social-networks{
     text-align: center;
     background-color: #fafafa;
+    height: 50px;
 }
 
 .footer {
