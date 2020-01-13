@@ -50,8 +50,7 @@
    height: 750px;
    background-size: cover;
    background-position: center center;
-   background-attachment: fixed;
-   overflow: scroll;
+   overflow: auto;
 }
 
 .about-us h3 {
