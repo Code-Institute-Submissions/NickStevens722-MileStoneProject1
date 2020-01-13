@@ -16,39 +16,12 @@
 
 /*------------------Hero-Image--*/
 
-.home-title {
-    width: 100%;
-    overflow: hidden;
-}
-
-.hero-image img {
-    width: 100vw;
-    max-width: 100%;
-    object-fit: contain;
-    position: relative;
-    display: block;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
-
-.hero-image h1 {
-    top: 20px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    position: absolute;
-    color: #fafafa;
+.about-us {
+   background: url("../images/hero-image.jpg");
+   height: 900px;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
 }
 
 /*------------------Home Information--*/
@@ -184,7 +157,7 @@
   margin-top: 125px;
   color: #fff;
   background-color: rgba(60, 60, 60, .6);
-  width: 400px;
+  width: 50%;
   position: absolute;
   left: 10%;
   padding: 30px;
