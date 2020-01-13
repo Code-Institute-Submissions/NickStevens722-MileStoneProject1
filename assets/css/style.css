@@ -1,8 +1,6 @@
-/*------------------Background colours--*/
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
 
-.home-info {
-    background-color: #ece6d6;
-}
+/*------------------Background colours--*/
 
 .bg-society {
     background-color: #fafafa;
@@ -17,6 +15,8 @@
 /*------------------Hero-Image--*/
 
 .home-info {
+   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4)) ), url('../images/hero-image.jpg');
+   background: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4) ), url('../images/hero-image.jpg');
    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4) ), url('../images/hero-image.jpg');
    height: 900px;
    overflow: hidden;
@@ -64,6 +64,8 @@
 /*------------------About Us Page--*/
 
 .about-us {
+   background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4)) ), url('../images/lake.jpg');
+   background: -o-linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/lake.jpg');
    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/lake.jpg');
    height: 750px;
    background-size: cover;
@@ -145,6 +147,8 @@
 }
 
 .locations-1 {
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url('../images/diary-background.jpg');
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/diary-background.jpg');
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/diary-background.jpg');
     background-size: cover;
     background-position: center;
@@ -153,6 +157,8 @@
 }
 
 .locations-2 {
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url("../images/locations-2.jpg");
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-2.jpg");
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-2.jpg");
     background-size: cover;
     background-position: center;
@@ -161,6 +167,8 @@
 }
 
 .locations-3 {
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url("../images/locations-3.jpg");
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-3.jpg");
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-3.jpg");
     background-size: cover;
     background-position: center;
@@ -169,6 +177,8 @@
 }
 
 .locations-4 {
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url("../images/location-4.jpg");
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/location-4.jpg");
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/location-4.jpg");
     background-size: cover;
     background-position: center;
@@ -188,6 +198,8 @@
 /*------------------Results--*/
 
 .results {
+   background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url('../images/results.jpg');
+   background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/results.jpg');
    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/results.jpg');
    height: 450px;
    background-size: cover;
@@ -203,6 +215,8 @@
 /*------------------Form--*/
 
 .form-section {
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2)) ), url("../images/form.jpg");
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../images/form.jpg");
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../images/form.jpg");
     background-size: cover;
     background-position: center;
