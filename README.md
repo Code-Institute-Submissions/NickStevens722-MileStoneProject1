@@ -6,4 +6,8 @@ This is a website for a fictional golf society, designed as a way for the member
 
 ## UX
 
-The puspose behind the design for the website is for people to be able to find the information they are looking for intuitively.
+The puspose behind the design for the website is for people to be able to find the information they are looking for intuitively. Every page follows the same base format of a background image with the critical information above it, with furthter information below.
+
+## Live Demo
+
+The deployed site can be found at this [link](https://nickstevens722.github.io/MileStoneProject1/).
