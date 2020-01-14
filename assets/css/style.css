@@ -86,24 +86,21 @@ body {
    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url('../images/lake.jpg');
    background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/lake.jpg');
    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/lake.jpg');
-   height: 750px;
+   height: 150px;
    background-size: cover;
    background-position: center center;
    overflow: auto;
    color: #fff;
 }
 
-.about-us h3 {
+.about-us h1 {
    padding: 25px 5%;
    font-family: 'Noto Sans JP', sans-serif;
 }
 
-.about-us p {
-   padding: 0px 5%;
-}
-
-#top-padding {
-   padding-top: 25px;
+.about-text h3 {
+   font-family: 'Noto Sans JP', sans-serif;
+   padding: 10px 0;
 }
 
 .rules {
@@ -212,7 +209,7 @@ body {
 
 .results h1 {
    font-family: 'Noto Sans JP',sans-serif;
-   padding: 25px 0;
+   padding: 25px 0 25px 5%;
 }
 
 .results-table i {
@@ -229,7 +226,7 @@ body {
     background-position: center;
     height: 150px;
     overflow: hidden;
-    color: #fff
+    color: #fff;
 }
 
 .signup-form {
