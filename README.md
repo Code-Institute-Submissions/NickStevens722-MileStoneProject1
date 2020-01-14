@@ -25,3 +25,9 @@ The site was self tested on multiple browsers and at multiple screen sizes to en
 ## Deployment
 
 The site is published on GitHub pages from the master branch and the link is provided above.
+
+## Wireframes
+
+Please find below the wireframes I used at the start of my project to make the initial pages.
+
+![Home Page Wirerfame](https://imgur.com/vGxl9Di "Home page wireframe")
