@@ -92,25 +92,9 @@ body {
    padding-top: 25px;
 }
 
-.rules h3 {
-   font-family: 'Noto Sans JP', sans-serif;
-   padding: 25px 5%;
+.rules {
+   padding-top: 25px;
 }
-
-.rules h4 {
-   font-family: 'Noto Sans JP', sans-serif;
-   padding: 25px 5%;
-}
-
-.rules li {
-   padding-top: 2px;
-   padding-left: 5%;
-}
-
-.rules p {
-   padding-left: 5%;
-}
-
 
 /*------------------Footer--*/
 
