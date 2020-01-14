@@ -36,12 +36,20 @@ body {
    font-family: 'Noto Sans JP', sans-serif;
 }
 
-.home-info p {
+.home-info h5 {
    padding: 0px 5%;
 }
 
 #home-info-text {
   color: #fafafa;
+}
+
+.home-about {
+   padding-top: 25px;
+}
+
+.home-about p {
+   padding: 0px 5%;
 }
 
 .further-info h4 {
@@ -136,6 +144,9 @@ body {
     text-align: center;
     color: #fafafa;
     height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .locations h3 {
@@ -143,39 +154,27 @@ body {
 }
 
 .locations-1 {
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url('../images/diary-background.jpg');
-    background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/diary-background.jpg');
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/diary-background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url('../images/diary-background.jpg');
+    background-image: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/diary-background.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/diary-background.jpg');
 }
 
 .locations-2 {
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url("../images/locations-2.jpg");
-    background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-2.jpg");
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url("../images/locations-2.jpg");
+    background-image: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-2.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-2.jpg");
 }
 
 .locations-3 {
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url("../images/locations-3.jpg");
-    background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-3.jpg");
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-3.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url("../images/locations-3.jpg");
+    background-image: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-3.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-3.jpg");
 }
 
 .locations-4 {
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url("../images/location-4.jpg");
-    background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/location-4.jpg");
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/location-4.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url("../images/location-4.jpg");
+    background-image: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/location-4.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/location-4.jpg");
 }
 
 .travel {
@@ -197,15 +196,20 @@ body {
    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url('../images/results.jpg');
    background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/results.jpg');
    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/results.jpg');
-   height: 450px;
+   height: 150px;
    background-size: cover;
    background-position: center center;
    overflow: auto;
    color: #fff;
 }
 
-.results table i {
-   color: #fff;
+.results h1 {
+   font-family: 'Noto Sans JP',sans-serif;
+   padding: 25px 0;
+}
+
+.results-table i {
+   color: #000;
 }
 
 /*------------------Form--*/
@@ -216,7 +220,7 @@ body {
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../images/form.jpg");
     background-size: cover;
     background-position: center;
-    height: 750px;
+    height: 150px;
     overflow: hidden;
     color: #fff
 }
@@ -225,7 +229,7 @@ body {
    padding-top: 25px;
 }
 
-.form-section h3 {
+.form-section h1 {
    font-family: 'Noto Sans JP',sans-serif;
    padding: 25px 0;
 }

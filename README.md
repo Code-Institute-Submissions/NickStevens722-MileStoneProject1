@@ -6,7 +6,13 @@ This is a website for a fictional golf society, designed as a way for the member
 
 ## UX
 
-The puspose behind the design for the website is for people to be able to find the information they are looking for intuitively. Every page follows the same base format of a background image with the critical information above it, with furthter information below.
+The puspose behind the design for the website is for people to be able to find the information they are looking for intuitively. There would be two different types of users, members looking for either the results or the details of the next event. Or prospective members looking for information about the society or a way to contact the society.
+
+To make this easier the navigation links are well labeled and tell the user exactly what the pages contain.
+
+## Features To Add
+
+The main feature that I would have liked to add would have been google maps integration on the diary page next to the travel information.
 
 ## Live Demo
 
@@ -39,3 +45,13 @@ Please find below the wireframes I used at the start of my project to make the i
 ![Diary Page Mobile Wirefeame](https://i.imgur.com/UiDs8bg.png "Diary page mobile wireframe")
 
 ![Signup Page Wirefeame](https://i.imgur.com/RcvuH8s.png "Signup page wireframe")
+
+## Credits
+
+#### Content
+
+Thanks to Torreblanca Golf Society, where I copied the rules and handicap section from.
+
+#### Media
+
+The photos I used were all acquired from pexels.com, a site which provides free stock images.
