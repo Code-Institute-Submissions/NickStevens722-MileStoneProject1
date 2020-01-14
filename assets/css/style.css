@@ -136,49 +136,25 @@ body {
 
 /*------------------Diary Page--*/
 
-.diary-title {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-left: 5%;
-    background-color: #fff;
-    font-family: 'Noto Sans JP', sans-serif;
+
+.diary-page {
+   background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url('../images/diary-background.jpg');
+   background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/diary-background.jpg');
+   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/diary-background.jpg');
+   height: 150px;
+   background-size: cover;
+   background-position: center center;
+   overflow: auto;
+   color: #fff;
 }
 
-.locations {
-    text-align: center;
-    color: #fafafa;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.diary-page h1 {
+   padding: 25px 5%;
+   font-family: 'Noto Sans JP', sans-serif;
 }
 
-.locations h3 {
-    padding-top: 25px;
-}
-
-.locations-1 {
-    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url('../images/diary-background.jpg');
-    background-image: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/diary-background.jpg');
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/diary-background.jpg');
-}
-
-.locations-2 {
-    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url("../images/locations-2.jpg");
-    background-image: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-2.jpg");
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-2.jpg");
-}
-
-.locations-3 {
-    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url("../images/locations-3.jpg");
-    background-image: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-3.jpg");
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/locations-3.jpg");
-}
-
-.locations-4 {
-    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url("../images/location-4.jpg");
-    background-image: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/location-4.jpg");
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/location-4.jpg");
+.diary-cards .card-wrapper {
+   padding-top: 20px;
 }
 
 .travel {
