@@ -10,6 +10,8 @@ The puspose behind the design for the website is for people to be able to find t
 
 To make this easier the navigation links are well labeled and tell the user exactly what the pages contain.
 
+The diary and the rules section use the card system to make it easy to edit the amount of content in those sections.
+
 ## Features To Add
 
 The main feature that I would have liked to add would have been google maps integration on the diary page next to the travel information.
