@@ -3,13 +3,27 @@
 /*------------------Background colours--*/
 
 .bg-society {
-    background: linear-gradient(rgba(200, 200, 200, 1), rgba(200, 200, 200, 0) );
+    background: linear-gradient(rgba(240, 240, 240, 1), rgba(255, 255, 255, 1) );
 }
 
 /*-------------------Navbar---*/
 
 .navbar {
    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* The following two rules are to fix the footer at the bottom of the results page */
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
 }
 
 /*------------------Hero-Image--*/
@@ -69,9 +83,9 @@ body {
 /*------------------About Us Page--*/
 
 .about-us {
-   background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4)) ), url('../images/lake.jpg');
-   background: -o-linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/lake.jpg');
-   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/lake.jpg');
+   background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url('../images/lake.jpg');
+   background: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/lake.jpg');
+   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/lake.jpg');
    height: 750px;
    background-size: cover;
    background-position: center center;
@@ -96,11 +110,20 @@ body {
    padding-top: 25px;
 }
 
+.rules h3 {
+   font-family: 'Noto Sans JP', sans-serif;
+   padding-bottom: 10px;
+}
+
+.card {
+   background-color: #f1f1f1;
+}
+
 /*------------------Footer--*/
 
 .footer {
    text-align: center;
-   background: linear-gradient(rgba(200, 200, 200, 0), rgba(200, 200, 200, 1) );;
+   background: linear-gradient(rgba(255, 255, 255, 1), rgba(240, 240, 240, 1) );
 }
 
 .social-networks li {
@@ -120,7 +143,7 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
     margin-left: 5%;
-    background-color: #fafafa;
+    background-color: #fff;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
