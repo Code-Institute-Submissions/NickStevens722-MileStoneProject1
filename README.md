@@ -57,3 +57,7 @@ Thanks to Torreblanca Golf Society, where I copied the rules and handicap sectio
 #### Media
 
 The photos I used were all acquired from pexels.com, a site which provides free stock images.
+
+#### Acknowledgements
+
+A big thank you to my mentor Antonija for all the help with this project. As well as to the people on Slack who have helped me with some questions.
