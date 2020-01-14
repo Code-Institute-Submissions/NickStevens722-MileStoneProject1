@@ -30,4 +30,12 @@ The site is published on GitHub pages from the master branch and the link is pro
 
 Please find below the wireframes I used at the start of my project to make the initial pages.
 
-![Home Page Wirerfame](https://imgur.com/vGxl9Di "Home page wireframe")
+![Home Page Wirefeame](https://i.imgur.com/vGxl9Di.png "Home page wireframe")
+
+![Home Page Mobile Wirefeame](https://i.imgur.com/wXl6iVx.png "Home page mobile wireframe")
+
+![Diary Wirefeame](https://i.imgur.com/UNtss88.png "Diary page wireframe")
+
+![Diary Page Mobile Wirefeame](https://i.imgur.com/UiDs8bg.png "Diary page mobile wireframe")
+
+![Signup Page Wirefeame](https://i.imgur.com/RcvuH8s.png "Signup page wireframe")
